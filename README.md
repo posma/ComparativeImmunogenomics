@@ -14,10 +14,10 @@ Masha
 
 ## Data with IG/TR loci characteristics
 ### Curated IG/TR locus sequences
-*data/loci/{IGH|IGK\IGL|TRA|TRB}*
+*data/loci/{IGH|IGK|IGL|TRA|TRB}*
 
 ### Annotated germline IG/TR genes
-*data/Vgenes/{IGH|IGK\IGL|TRA|TRB}*
+*data/Vgenes/{IGH|IGK|IGL|TRA|TRB}*
 contains only productive V genes
 
 ### IG/TR locus lengths and gene counts
