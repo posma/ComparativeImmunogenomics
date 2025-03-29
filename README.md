@@ -1,23 +1,30 @@
 # Comparative analysis of mammalian immunoglobulin (IG) and T-cell receptor (TR) loci
 
 ## Scripts for computing IG/TR loci characteristics
+All scripts are command line and notebook executable. Jupyter execution can be found in file *test/test.ipynb*. Command line executions are present below:
+
 ### Computing locus tandemness
+*test/Repeats.py* <br />
+usage: python3 Repeats.py -y {path/to/yass_csv/output} -c {int contig length}
 
 ### Computing gene statistics within the same locus
-Masha
+*test/PercentIdentity.py* <br />
+usage: python3 PercentIdentity.py -v {path/to/vgene/df} 
 
 ### Computing haplotype similarity
-Masha
+*test/HapSimilarity.py* <br />
+usage: python3 HapSimilarity.py -y {path/to/yass_csv/output} -q {q_contig_length} -s {s_contig_length}
 
 ### Computing gene statistics within a haplotype pair
-Masha
+*test/PercentIdentity.py* <br />
+usage: python3 PercentIdentity.py -v {path/to/vgene/df} -v2 {path/to/vgene2/df}
 
 ## Data with IG/TR loci characteristics
 ### Curated IG/TR locus sequences
 *data/loci/{IGH|IGK|IGL|TRA|TRB}*
 
 ### Annotated germline IG/TR genes
-*data/Vgenes/{IGH|IGK|IGL|TRA|TRB}*
+*data/Vgenes/{IGH|IGK|IGL|TRA|TRB}* <br />
 contains only productive V genes
 
 ### IG/TR locus lengths and gene counts
@@ -27,8 +34,8 @@ Yana
 Yana
 
 ### Summary characteristics of IG/TR loci
-*data/summary.tsv*
-Contains columns:
+*data/summary.tsv* <br />
+Contains columns: <br />
 - R15_5: repetiteveness metric ~ fractions of an input sequence positions covered by repeats of length at least 15kbp at least 5 times
 - tandem: tandemness category (non-tandem, semi-tandem, tandem)
 - pi_mean: average percent identity 
@@ -44,8 +51,8 @@ Contains columns:
 Yana
 
 ### Summary characteristics of IG/TR haplotypes
-*data/summary_haplotypes.tsv*
-Contains columns: 
+*data/summary_haplotypes.tsv* <br />
+Contains columns: <br />
 - exp_area: haplotype similarity metrics
 - pi_mean: average percent identity between haplotypes genes
 - size2: number of pairs as the smallest cut of hierarchical tree
@@ -58,4 +65,4 @@ Contains columns:
 - PN%genes: percent of genes that form pairPN (to # of genes)
 
 ## Scripts for computing correlations and association P-values 
-*data/test.ipynb*
+*data/computations.ipynb*
