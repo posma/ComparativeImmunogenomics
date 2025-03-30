@@ -5,19 +5,19 @@ All scripts are command line and notebook executable. Jupyter execution can be f
 
 ### Computing locus tandemness
 *test/Repeats.py* <br />
-usage: python3 Repeats.py -y {path/to/yass_csv/output} -c {int contig length}
+```python3 Repeats.py -y {path/to/yass_csv/output} -c {int contig length}```
 
 ### Computing gene statistics within the same locus
 *test/PercentIdentity.py* <br />
-usage: python3 PercentIdentity.py -v {path/to/vgene/df} 
+```python3 PercentIdentity.py -v {path/to/vgene/df}```
 
 ### Computing haplotype similarity
 *test/HapSimilarity.py* <br />
-usage: python3 HapSimilarity.py -y {path/to/yass_csv/output} -q {q_contig_length} -s {s_contig_length}
+```python3 HapSimilarity.py -y {path/to/yass_csv/output} -q {q_contig_length} -s {s_contig_length}```
 
 ### Computing gene statistics within a haplotype pair
 *test/PercentIdentity.py* <br />
-usage: python3 PercentIdentity.py -v {path/to/vgene/df} -v2 {path/to/vgene2/df}
+```python3 PercentIdentity.py -v {path/to/vgene/df} -v2 {path/to/vgene2/df}```
 
 ## Data with IG/TR loci characteristics
 ### Curated IG/TR locus sequences
