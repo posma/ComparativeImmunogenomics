@@ -3,7 +3,7 @@
 ## Scripts for computing IG/TR loci characteristics
 All scripts are command line and notebook executable. Jupyter execution can be found in file *test/test.ipynb*. Command line executions are present below:
 
-### Computing locus tandemness
+### Computing locus HRMC
 *test/Repeats.py* <br />
 ```python3 Repeats.py -y {path/to/yass_csv/output} -c {int contig length}```
 
@@ -37,7 +37,7 @@ Yana
 *data/summary.tsv* <br />
 Contains columns: <br />
 - R15_5: repetiteveness metric ~ fractions of an input sequence positions covered by repeats of length at least 15kbp at least 5 times
-- tandem: tandemness category (non-tandem, semi-tandem, tandem)
+- hrmc: high multiplicity repeat content category (high, medium, low)
 - pi_mean: average percent identity 
 - sim_95: average percentage of V genes that have at least 95% similarity to another V gene within the same locus 
 - Simple_repeat: percentage of locus covered by simple repeats
