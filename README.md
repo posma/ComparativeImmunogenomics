@@ -3,7 +3,7 @@
 ## Scripts for computing IG/TR loci characteristics
 All scripts are command line and notebook executable. Jupyter execution can be found in file *test/test.ipynb*. Command line executions are present below:
 
-### Computing locus HRMC
+### Computing locus repetitiveness 
 *test/Repeats.py* <br />
 ```python3 Repeats.py -y {path/to/yass_csv/output} -c {int contig length}```
 
