@@ -28,10 +28,10 @@ All scripts are command line and notebook executable. Jupyter execution can be f
 contains only productive V genes
 
 ### IG/TR locus lengths and gene counts
-Yana
+To be added
 
 ### Pairwise locus similarities
-Yana
+To be added
 
 ### Summary characteristics of IG/TR loci
 *data/summary.tsv* <br />
@@ -48,7 +48,7 @@ Contains columns: <br />
 -Low_complexity: percentage of locus covered by low complexity repeats
 
 ### Effective population sizes
-Yana
+To be added
 
 ### Summary characteristics of IG/TR haplotypes
 *data/summary_haplotypes.tsv* <br />
