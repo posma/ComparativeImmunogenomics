@@ -1,0 +1,80 @@
+# Snakefile
+
+LABELS = glob_wildcards("genomes/{label}/{label}.hap1.fasta").label
+
+rule all:
+    input:
+        expand("plots/{label}.eps", label=LABELS)
+
+# Rule to perform minimap2 alignment and generate a SAM file
+rule align_haplotypes:
+    input:
+        ref="genomes/{label}/{label}.hap1.fasta",
+        reads="simulated_uniform/{label}_10_150.fasta"
+    output:
+        "aln/{label}_aln.bam"
+    threads: 20
+    shell:
+        """
+        bwa index {input.ref}
+        bwa mem -t 20 {input.ref} {input.reads} | samtools view -Sb  > {output}
+        """
+
+# Rule sort BAM
+rule sam_to_sorted_bam:
+    input:
+        "aln/{label}_aln.bam"
+    output:
+        "aln/{label}_hapl_aln_sorted.bam"
+    threads: 20
+    shell:
+        """
+        samtools sort {input} -@ 20 -o {output}
+        """
+
+# Rule to generate consensus sequence using samtools consensus
+rule generate_consensus:
+    input:
+        "aln/{label}_hapl_aln_sorted.bam"
+    output:
+        "consensus/{label}_consensus.fastq"
+    threads: 20
+    shell:
+        """
+        samtools consensus -A --show-ins no -f fastq {input} -o {output}
+        """
+
+# Rule to generate PSMC fasta-like
+rule generate_psmcfa:
+    input:
+        consensus="consensus/{label}_consensus.fastq",
+    output:
+        "psmcfa/{label}.psmcfa"
+    shell:
+        """
+        ../psmc/utils/fq2psmcfa -q20 {input.consensus} > {output}
+        """
+
+# Rule to generate PSMC output
+rule PSMC:
+    input:
+        "psmcfa/{label}.psmcfa"
+    output:
+        "psmc_out/{label}.psmc"
+    shell:
+        """
+        ../psmc/psmc -N25 -t15 -r5 -p "4+25*2+4+6" -o {output} {input}
+        """
+
+# Rule to plot population history
+rule plot:
+    input:
+        "psmc_out/{label}.psmc"
+    output:
+        "plots/{label}.eps"
+    shell:
+        """
+        ../psmc/utils/psmc_plot.pl plots/{wildcards.label} {input}
+        """
+
+#samtools consensus -@ {threads} -A -a --show-ins no -f fasta {input.bam} -o {output}
