@@ -5,26 +5,27 @@ Artiodactyla	mOrcOrc1	Orcinus orca	Killer whale	GCA_937001465.1	GCA_937001455.1	
 Artiodactyla	mPhoSin1	Phocoena sinus	Vaquita	GCA_008692025.1	GCA_008692045.1	VGP	PacBio CLR
 Artiodactyla	mCamDro1	Camelus dromedarius	Dromedary	genomeark.org/genomeark-all/Camelus_dromedarius.html	genomeark.org/genomeark-all/Camelus_dromedarius.html	VGP	HiFi
 Artiodactyla	mHipAmp2	Hippopotamus amphibius kiboko	Hippopotamus	GCA_030028035.1	GCF_030028045.1	NCBI	HiFi
-Carnivora	mCanLor1	Canis lupus orion	Greenland wolf	GCA_905319855.2	GCA_905319845.1	VGP	HiFi
-Carnivora	mLutLut1	Lutra lutra	Eurasian river otter	GCA_902655055.2	GCA_902653095.1	VGP	PacBio CLR
-Carnivora	mLynCan4	Lynx canadensis	Canada lynx	GCA_007474595.2	GCA_007474575.2	VGP	PacBio CLR
-Carnivora	mMelMel3	Meles meles	European badger	GCA_922990625.1	GCA_922984935.2	VGP	HiFi
-Carnivora	mMusErm1	Mustela erminea	Stoat	GCA_009829155.1	GCA_009829165.1	VGP	PacBio CLR
+Artiodactyla	mSusScr2	Sus scrofa	wild boar	GCA_048338725.1		VGP	PacBio CLR
+Carnivora	mMirAng1	Mirounga angustirostris	Northern elephant seal	GCA_029215605.1	GCA_029215635.1	CCGP	HiFi
+Carnivora	mLynRuf1	Lynx rufus	Bobcat	GCF_022079265.1	GCA_022079275.1	CCGP	HiFi
+Carnivora	UrsArc2.0	Ursus arctos	Brown bear	GCF_023065955.2		NCBI	HiFi
+Carnivora	mUrsAme1.0	Ursus americanus	American black bear	GCA_024610735.1	GCA_024610745.1	CCGP	HiFi
+Carnivora	mMusNiv1	Mustela nivalis	Least weasel	genomeark.org/genomeark-all/Mustela_nivalis.html	genomeark.org/genomeark-all/Mustela_nivalis.html	VGP	HiFi
+Carnivora	mPumCon1.1	Puma concolor	Mountain lion	GCA_028749985.3	GCA_028749965.3	CCGP	HiFi
+Carnivora	mMusLut2	Mustela lutreola	European mink	genomeark.org/genomeark-all/Mustela_lutreola.html	genomeark.org/genomeark-all/Mustela_lutreola.html	VGP	HiFi
 Carnivora	mNeoNeb1	Neofelis nebulosa	Clouded leopard	GCA_028018385.1	GCA_028018655.1	VGP	HiFi
 Carnivora	mZalCal1	Zalophus californianus	California sea lion	GCA_009762305.2	GCA_009762295.2	VGP	PacBio CLR
+Carnivora	mMusErm1	Mustela erminea	Stoat	GCA_009829155.1	GCA_009829165.1	VGP	PacBio CLR
+Carnivora	mMelMel3	Meles meles	European badger	GCA_922990625.1	GCA_922984935.2	VGP	HiFi
+Carnivora	mLynCan4	Lynx canadensis	Canada lynx	GCA_007474595.2	GCA_007474575.2	VGP	PacBio CLR
+Carnivora	mLutLut1	Lutra lutra	Eurasian river otter	GCA_902655055.2	GCA_902653095.1	VGP	PacBio CLR
+Carnivora	mCanLor1	Canis lupus orion	Greenland wolf	GCA_905319855.2	GCA_905319845.1	VGP	HiFi
 Carnivora	mMarMar1	Martes martes	European pine marten	genomeark.org/vgp-all/Martes_martes.html	genomeark.org/vgp-all/Martes_martes.html	VGP	HiFi
-Carnivora	mMusLut2	Mustela lutreola	European mink	genomeark.org/genomeark-all/Mustela_lutreola.html	genomeark.org/genomeark-all/Mustela_lutreola.html	VGP	HiFi
-Carnivora	mPumCon1.1	Puma concolor	Mountain lion	GCA_028749985.3	GCA_028749965.3	CCGP	HiFi
-Carnivora	mMusNiv1	Mustela nivalis	Least weasel	genomeark.org/genomeark-all/Mustela_nivalis.html	genomeark.org/genomeark-all/Mustela_nivalis.html	VGP	HiFi
-Carnivora	mUrsAme1.0	Ursus americanus	American black bear	GCA_024610735.1	GCA_024610745.1	CCGP	HiFi
-Carnivora	UrsArc2.0	Ursus arctos	Brown bear	GCF_023065955.2		NCBI	HiFi
-Carnivora	mLynRuf1	Lynx rufus	Bobcat	GCF_022079265.1	GCA_022079275.1	CCGP	HiFi
-Carnivora	mMirAng1	Mirounga angustirostris	Northern elephant seal	GCA_029215605.1	GCA_029215635.1	CCGP	HiFi
-Chiroptera	mMyoDau2	Myotis daubentonii	Daubenton's bat	genomeark.org/vgp-all/Myotis_daubentonii.html	genomeark.org/vgp-all/Myotis_daubentonii.html	VGP	HiFi
-Chiroptera	mPleAur1	Plecotus auritus	Brown big-eared bat	genomeark.org/vgp-all/Plecotus_auritus.html	genomeark.org/vgp-all/Plecotus_auritus.html	VGP	HiFi
-Chiroptera	mEptNil1	Eptesicus nilssonii	Northern bat	genomeark.org/vgp-all/Eptesicus_nilssonii.html	genomeark.org/vgp-all/Eptesicus_nilssonii.html	VGP	HiFi
-Chiroptera	mCorTow1.0	Corynorhinus townsendii	Townsend's big-eared bat	GCA_026230055.1	GCA_026230045.1	CCGP	HiFi
 Chiroptera	mMyoYum1.0	Myotis yumanensis	Yuma myotis	GCA_028538775.1	GCA_028536395.1	CCGP	HiFi
+Chiroptera	mCorTow1.0	Corynorhinus townsendii	Townsend's big-eared bat	GCA_026230055.1	GCA_026230045.1	CCGP	HiFi
+Chiroptera	mPleAur1	Plecotus auritus	Brown big-eared bat	genomeark.org/vgp-all/Plecotus_auritus.html	genomeark.org/vgp-all/Plecotus_auritus.html	VGP	HiFi
+Chiroptera	mMyoDau2	Myotis daubentonii	Daubenton's bat	genomeark.org/vgp-all/Myotis_daubentonii.html	genomeark.org/vgp-all/Myotis_daubentonii.html	VGP	HiFi
+Chiroptera	mEptNil1	Eptesicus nilssonii	Northern bat	genomeark.org/vgp-all/Eptesicus_nilssonii.html	genomeark.org/vgp-all/Eptesicus_nilssonii.html	VGP	HiFi
 Cingulata	mDasNov1	Dasypus novemcinctus	Nine-banded armadillo	genomeark.org/genomeark-all/Dasypus_novemcinctus.html	genomeark.org/genomeark-all/Dasypus_novemcinctus.html	VGP	HiFi
 Dermoptera	mCynVol1	Cynocephalus volans	Philippine flying lemur	GCA_027409185.1	GCA_027409165.1	VGP	HiFi
 Didelphimorphia	mMacEug1	Macropus eugenii	Tammar wallaby	GCA_028372415.1	GCA_028389975.1	VGP	HiFi
@@ -32,10 +33,11 @@ Didelphimorphia	mMonDom1	Monodelphis domestica	Gray short-tailed opossum	GCA_027
 Eulipotyphla	mSorAra2	Sorex araneus	Common shrew	GCA_027595985.1	GCA_027595995.1	VGP	HiFi
 Eulipotyphla	mEriEur2	Erinaceus europaeus	Western European hedgehog	GCA_950295315.1	GCA_950295305.1	VGP	HiFi
 Hyracoidea	mHetBru1	Heterohyrax brucei	Yellow-spotted hyrax	GCA_028571685.1	GCA_028571665.1	VGP	HiFi
+Perissodactyla	mEquCab1	Equus caballus	Arabian horse	GCA_036426135.1	GCA_036418255.1	VGP	HiFi
 Perissodactyla	mDicBic1	Diceros bicornis	Black rhinoceros	GCA_020826845.1	GCA_020826835.1	VGP	HiFi
 Pholidota	mManPen7	Manis pentadactyla	Chinese pangolin	GCA_030020395.1	GCA_030020945.1	VGP	HiFi
-Primates	mLemCat1	Lemur catta	Ring-tailed lemur	GCA_020740605.1	GCA_020740595.1	VGP	HiFi
 Primates	mNycCou1	Nycticebus coucang	Slow loris	GCA_027406575.1	GCA_027406535.1	VGP	HiFi
+Primates	mLemCat1	Lemur catta	Ring-tailed lemur	GCA_020740605.1	GCA_020740595.1	VGP	HiFi
 Proboscidea	mEleMax1	Elephas maximus	Asiatic elephant	GCA_024166365.1	GCA_024166345.1	VGP	HiFi
 Rodentia	mChiNiv1	Chionomys nivalis	European snow vole	GCA_950005125.1	GCA_950005115.1	VGP	HiFi
 Rodentia	mMusAve1	Muscardinus avellanarius	Hazel dormouse	genomeark.org/vgp-all/Muscardinus_avellanarius.html	genomeark.org/vgp-all/Muscardinus_avellanarius.html	VGP	HiFi
